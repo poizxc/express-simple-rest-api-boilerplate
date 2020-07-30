@@ -1,11 +1,11 @@
 {
   "license": "MIT",
   "name": "express-simple-rest-api-boilerplate",
-  "description": "",
+  "description": "Really simple boilerplate for building REST APIs with express.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/poizxc/express-simple-rest-api-boilerplate"
+    "url": "git+https://github.com/poizxc/express-simple-rest-api-boilerplate.git"
   },
   "bugs": {
     "url": "https://github.com/poizxc/express-simple-rest-api-boilerplate/issues"
@@ -47,5 +47,8 @@
     "eslint-plugin-prettier": "^3.1.2",
     "nodemon": "^2.0.2",
     "prettier": "^2.0.5"
-  }
+  },
+  "homepage": "https://github.com/poizxc/express-simple-rest-api-boilerplate#readme",
+  "main": "src/app.js",
+  "author": ""
 }
