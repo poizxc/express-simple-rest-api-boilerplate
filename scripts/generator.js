@@ -18,7 +18,6 @@ const createDirectory = (name) => {
 };
 
 const canBeCopied = (fileName, newDirectory) =>
-  !fileName.includes('node_modules') &&
   !fileName.includes(newDirectory) &&
   !fileName.includes('coverage') &&
   !fileName.includes('.nyc_output') &&
