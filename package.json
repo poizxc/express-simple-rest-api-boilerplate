@@ -52,6 +52,6 @@
   "author": "Kacper Jach",
   "preferGlobal": true,
   "bin": {
-    "esrad": "scripts/generator.js"
+    "esrab": "scripts/generator.js"
   }
 }
