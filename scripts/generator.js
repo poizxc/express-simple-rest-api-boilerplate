@@ -1,11 +1,15 @@
+#! /usr/bin/env node
+
 const { execSync } = require('child_process');
 const { promisify } = require('util');
 const { ncp } = require('ncp');
-const ncpPromise = promisify(ncp);
+const path = require('path');
+
 const args = process.argv.slice(2);
+const ncpPromise = promisify(ncp);
 
 const findScriptPath = () => {
-  return process.cwd();
+  return path.join(__dirname, '..');
 };
 
 const createDirectory = (name) => {

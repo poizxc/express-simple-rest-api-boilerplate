@@ -19,8 +19,6 @@
     "lint": "eslint  ./src",
     "lint:fix": "eslint --fix ./src "
   },
-  "all": true,
-  "check-coverage": true,
   "dependencies": {
     "@hapi/joi": "^17.1.0",
     "chai": "^4.2.0",
@@ -51,5 +49,9 @@
   },
   "homepage": "https://github.com/poizxc/express-simple-rest-api-boilerplate#readme",
   "main": "src/app.js",
-  "author": ""
+  "author": "Kacper Jach",
+  "preferGlobal": true,
+  "bin": {
+    "esrad": "scripts/generator.js"
+  }
 }
