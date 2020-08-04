@@ -25,9 +25,6 @@ If you see something that can be done better - feel free to create **github issu
 - [Express-Simple-Rest-Api-Boilerplate (esrab)](#express-simple-rest-api-boilerplate-esrab)
   - [Table Of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
-    - [Clone It](#clone-it)
-    - [Make it your own repository](#make-it-your-own-repository)
-    - [Install dependencies](#install-dependencies)
   - [Scripts](#scripts)
     - [Start development server:](#start-development-server)
     - [Start production server:](#start-production-server)
@@ -36,32 +33,10 @@ If you see something that can be done better - feel free to create **github issu
 
 ## Getting Started
 
-For now you need to **clone** this repository, but I aim to create this as a **generator**.
-
-### Clone It
+You can create boilerplate application using npx:
 
 ```
-git clone git+https://github.com/poizxc/express-simple-rest-api-boilerplate.git
-
-cd express-simple-rest-api-boilerplate
-```
-
-### Make it your own repository
-
-```
-rm -rf .git && git init && npm init
-```
-
-### Install dependencies
-
-```
-npm install
-```
-
-or
-
-```
-yarn install
+npx https://github.com/poizxc/express-simple-rest-api-boilerplate <directoryName>
 ```
 
 ## Scripts
